@@ -1,0 +1,323 @@
+/*
+Theme Name: fquartett
+Theme URI: http://fahrschule-quartett.de
+Version: 1.0
+Author: Tino Breddin
+Author URI: http://tolbrino.com
+
+Copyright &copy; 2006-2008 Fahrschule Quartett, All rights reserved.
+
+*/
+
+
+
+/*- Page Structure */
+
+body {
+	text-align:  center;
+	font: normal normal normal 10pt Helvetica, sans-serif;
+}
+
+#wrapper {
+	width:  895px;
+	margin: 0 auto;
+	text-align:  left;
+}
+
+#header {
+	text-align: center;
+	color: #fff;
+	width: 445px;
+	height: 110px;
+	margin: 0px auto 5px auto;
+}
+
+#logobox {
+	background-color: #900;
+	width: 220px;
+	height: 110px;
+	float: left;
+}
+
+#sloganbox {
+	width: 220px;
+	height: 110px;
+	margin-left: 5px;
+	float: right;
+}
+
+#nav {
+	background-color: #900;
+	width: 220px;
+	height: 220px;
+	float: left;
+	margin-left: -670px;
+	line-height: 25px;
+	text-align: left;
+}
+
+#sidebar {
+	width: 220px;
+	float: left;
+	font-size: 75%;
+	margin-left: 5px;
+}
+
+#content {
+	display:  inline;
+	width: 445px;
+	height: 445px;
+	float: left;
+	margin-left: 225px;
+	margin-bottom: 5px;
+}
+
+.hidden_footer {
+	background-color: #cccc99;
+	width: 55px;
+	height: 55px;
+	clear: both;
+	text-align: center;
+	line-height: 15px;
+	padding-top: 5px;
+	font-size: 2px;
+	color: #cc9;
+	margin-left: 225px;
+}
+
+.shown_footer {
+	background-color: #cccc99;
+	width: 325px;
+	height: 55px;
+	clear: both;
+	text-align: center;
+	line-height: 15px;
+	padding-top: 5px;
+	font-size: 10px;
+	margin-left: 125px;
+	color: #fff;
+}
+
+.hidden-navigation,
+#nav h2,
+#footer h2{
+	width:1px;
+	position:absolute;
+	left:-9999px;
+}
+
+/* Navigation styles */
+
+#nav {
+	font-size: 1.5em;
+	color: #cccc99;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #cccc99;
+	text-decoration: none;
+}
+
+div.sidebaritem {
+	background-color: #cccc99; 
+	height: 220px;
+	text-align: center;
+}
+
+div#mailinglist {
+	margin-bottom: 5px; 
+}
+
+#content {
+	font-size: 1em;
+}
+
+#contenttopleft {
+	background-color: #cccccc;
+	width: 219px;
+	height: 219px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+#contenttopright {
+	background-color: #cccccc;
+	width: 219px;
+	height: 219px;
+	float: right;
+	border: 1px solid #ccc;
+}
+
+
+#contentbottomleft {
+	background-color: #cccccc;
+	width: 219px;
+	height: 219px;
+	float: left;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+
+}
+
+#contentbottomright {
+	background-color: #cccccc;
+	width: 219px;
+	height: 219px;
+	float: right;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+
+}
+
+
+div.boxcontent {
+	padding: 20px;
+}
+
+div.navcontent {
+	padding: 20px 20px 20px 60px;
+}
+
+div.heading {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+div.smallerheading {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+div.name {
+	text-align: center;
+	margin-top: 60px;
+	font-size: 1.5em;
+}
+
+div.description {
+	text-align: left;
+}
+
+div.image {
+	text-align: center;
+}
+
+a {
+	color: #900;
+	text-decoration: none;
+}
+
+a:hover {
+	
+}
+
+img#logo {
+	height: 100px;
+	width: 197px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+img {
+	border: 0;
+}
+
+#signin {
+	margin-top: 20px;
+}
+
+#checkout {
+	margin-top: 30px;
+}
+
+.note {
+	font-style: italic;
+	font-size: 0.8em;
+	float: right;
+	color: #fff;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.author {
+	font-style: italic;
+	font-size: 1.2em;
+	color: #fff;
+	margin-left: 30px;
+}
+
+p#extended {
+	margin-top: -20px;
+}
+
+#newstitle {
+	margin-bottom: 10px;
+}
+
+
+#photos {
+	display:  inline;
+	width: 670px;
+	height: 445px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+  
+#photos li {
+	float: left;
+}
+ 
+#photos .photo {
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	height: 425px;
+	width: 140px;
+	padding: 10px;
+	background: #fff;
+	border-right: 6px solid #1d1d20;
+}
+ 
+#photos span {
+	display: none;
+}
+ 
+#photos .bmw {
+	background: #78ba91 url(../images/bmw_preview_new.jpg);
+}
+ 
+#photos .golf {
+	background: #7389ae url(../images/golf_preview_new.jpg);
+}
+ 
+#photos .suzuki {
+	background: #c17878 url(../images/suzuki_preview_new.jpg);
+}
+ 
+#photos .mz {
+	background: #a87aad url(../images/mz_preview_new.jpg);
+	border-right: 0;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.navigation {
+	margin-bottom: 40px;
+}
+
+ul#pricelist {
+	margin-top: 0;
+}

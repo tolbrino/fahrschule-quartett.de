@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div id="content">
+	<p class="hidden-navigation">
+    <a href="#navigations" title="Jump to the main navigation">Weiter zur Navigation</a>
+  </p>
+<div id="uppercontentbox">
+    <div class="boxcontent">
+      <div class="navigation">
+	{% if page.previous %}
+    		<div class="left"> &laquo; <a href="{{ page.previous.id }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></div>
+		{% endif %}
+{% if page.next %}
+    		<div class="right"><a href="{{ page.next.id }}" title="{{ page.next.title }}">{{ page.next.title }}</a> &raquo;</div>
+		{% endif %}
+
+
+    		<div class="clear"></div>
+    	</div>
+
+         <div class="entry-head">
+          <h3 class="entry-title">{{ page.title }}</h3>
+          <small class="entry-meta">
+           <span class="chronodata"><abbr class="published">{{ page.date | date_to_string }}</abbr></span> von {{ page.author }}
+	   </small>
+         </div>
+
+         <div class="entry-content">
+	   
+	   {{ content }}
+
+         </div>
+
+        </div>
+    
+       </div>
+      
+    </div>
+  </div>
+  </div>
+
+	<style type="text/css">
+		<!--
+		#uppercontentbox {
+width: 445px;
+height: 445px;
+background-color: #ccc;
+}
+
+.hidden_footer {
+	margin-left: 456px;
+}
+
+.shown_footer {
+	margin-left: 356px;
+}
+
+
+
+		-->
+	</style>
