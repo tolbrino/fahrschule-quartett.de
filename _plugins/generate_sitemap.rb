@@ -44,7 +44,7 @@ module Jekyll
     priority :low
     
     # Domain that you are generating the sitemap for - update this to match your site.
-    BASE_URL = 'http://fahrschule-quartett.com'
+    BASE_URL = 'http://fahrschule-quartett.de'
     
     # Generates the sitemap.xml file.
     #
