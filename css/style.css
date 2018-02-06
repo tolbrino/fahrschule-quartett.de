@@ -2,14 +2,9 @@
 Theme Name: fquartett
 Theme URI: http://fahrschule-quartett.de
 Version: 1.0
-Author: Tino Breddin
-Author URI: http://tolbrino.com
 
-Copyright &copy; 2006-2008 Fahrschule Quartett, All rights reserved.
-
+Copyright &copy; 2018 Fahrschule Quartett, All rights reserved.
 */
-
-
 
 /*- Page Structure */
 
@@ -46,16 +41,6 @@ body {
 	float: right;
 }
 
-#nav {
-	background-color: #900;
-	width: 220px;
-	height: 220px;
-	float: left;
-	margin-left: -670px;
-	line-height: 25px;
-	text-align: left;
-}
-
 #sidebar {
 	width: 220px;
 	float: left;
@@ -66,26 +51,13 @@ body {
 #content {
 	display:  inline;
 	width: 445px;
-	height: 445px;
+	height: 220px;
 	float: left;
 	margin-left: 225px;
 	margin-bottom: 5px;
 }
 
-.hidden_footer {
-	background-color: #cccc99;
-	width: 55px;
-	height: 55px;
-	clear: both;
-	text-align: center;
-	line-height: 15px;
-	padding-top: 5px;
-	font-size: 2px;
-	color: #cc9;
-	margin-left: 225px;
-}
-
-.shown_footer {
+.footer {
 	background-color: #cccc99;
 	width: 325px;
 	height: 55px;
@@ -94,7 +66,7 @@ body {
 	line-height: 15px;
 	padding-top: 5px;
 	font-size: 10px;
-	margin-left: 125px;
+	margin-left: 225px;
 	color: #fff;
 }
 
