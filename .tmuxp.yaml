@@ -1,0 +1,11 @@
+session_name: website_fahrschule_quartett
+windows:
+  - window_name: vim
+    panes:
+      - shell_command: vim
+  - window_name: server
+    panes:
+      - shell_command: gmake
+  - window_name: shell
+    panes:
+      - null
